@@ -33,6 +33,12 @@ d= {
     "mob no" : "7349411964"
 }
 
+d= {
+    "name": "Akhilesh",
+    "email_id":"akhileshcg98@gmail.com",
+    "mob no" : "7349411964"
+}
+
 db1=client['mongodb1']
 coll = db1['test']
 coll.insert_one(d)
